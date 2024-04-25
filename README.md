@@ -1,18 +1,6 @@
-# Litrl Browser
+# Web Research Manager
 
-Download latest version of Litrl Browser: https://github.com/litrl/litrl_code/releases/tag/experimental-0.15.0.1b
-
-Demonstration: https://www.youtube.com/watch?v=OtitQ-f4AL4
-
-The Litrl (pronouned "literal") Browser is a research tool for news readers, journalists, editors or information professionals. The tool analyzes the language used in digital news web pages to determine if they are clickbait, satirical news, or falsified news. The current online news environment is one that incentivizes speed and spectacle in reporting at the cost of fact-checking and verification, encouraging the proliferation of misinformation and disinformation. The LiT.RL News Verification (NV) Browser is a system that offers a first step counter-measure by automatically detecting and highlighting clickbait (to 94% accuracy on a test set of 5670 texts), satire (to 84% accuracy on a test set of 95 texts), and falsified text (to 71% accuracy on a test set of 28 texts). The browser was built to study the effectiveness of these deception detectors when applied to real-world internet use, where the accuracy of these detectors may vary considerably given the range of text online. Digital literacy is key for everyone to effectively evaluate potential misinformation online, and the Litrl Browser is **NOT** a replacement for that. All processing is completed on the local machine - clickbait, satirical news, and falsified news results are not sent to or from a remote server. Results may be saved locally to a standard SQLite database for further analysis. Please note that Litrl Browser is not perfect and is not always correct. 
-
-The Litrl Browser is based on Prof. Victoria Rubin's (Western University, Canada) News Verification Suite concept (https://www.researchgate.net/publication/316754164_News_Verification_Suite_Towards_System_Design_to_Supplement_Reporters'_and_Editors'_Judgements).
-
-Litrl Browser should be used with caution as it is still highly experimental, may contain bugs and security issues, and was intended to be used as a tool for further research into deception on the internet and the effectiveness of deception detectors. It is **NOT** designed as a replacement for your day-to-day web browser and should not be used where security is critical. The falsifications detector is still in very early stages and is still being written - although it performs acceptably on test data, in practice it is not always effective. Use this feature with added caution.
-
-The software was developed by the LiT.RL (Language and Information Technology Research Lab) at FIMS (Faculty of Information and Media Studies), Western University, Canada.
-
-Litrl Browser is licensed under the GPLv3.
+This repository will eventually be an upgraded version of Litrl Browser supporting new detectors. You can check back in late summer 2024 when it will likely be released.
 
 ### If you use Litrl Browser for research we ask that you cite the following:
 Rubin et al., (2019). A News Verification Browser for the Detection of Clickbait, Satire, and Falsified News. Journal of Open Source Software, 4(35), 1208, https://doi.org/10.21105/joss.01208
